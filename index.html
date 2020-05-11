@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee King</title>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Materialize Icons  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Materialize CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">CafeKing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">Services</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal();">Home</a></li>
+        <li><a href="#" onclick="toggleModal();">Services</a></li>
+        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+        <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+        <li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/carousal1.jpg" alt="image one" />
+            <div class="coverlay"></div>
+            <div class="caption center-align text-white">
+              <h3>Cafe King - Quality cafe</h3>
+              <h5 class="light text-lighten-3">We serve best coffee in town</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/carousal2.jpg" alt="image one" />
+            <div class="coverlay"></div>
+            <div class="caption center-align text-white">
+              <h3>Cafe King - Finest Coffee</h3>
+              <h5 class="light text-lighten-3">We serve best coffee in town</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/carousal3.jpg" alt="image one" />
+            <div class="coverlay"></div>
+            <div class="caption center-align text-white">
+              <h3>Cafe King - Traditional coffee</h3>
+              <h5 class="light text-lighten-3">We serve best coffee in town</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="desc">
+      <div class="section center white">
+        <h2 class="header">
+          Cafeking - Quality is first priority
+        </h2>
+        <div class="row container center">
+          <div class="col l8 s12 move-l">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            consectetur, fugiat tempora soluta vitae maiores cumque rerum!
+            Corporis eos fugiat magnam quasi est cupiditate eum veniam deleniti
+            dolore. Illum ducimus, doloribus aperiam obcaecati mollitia,
+            cupiditate ipsa at blanditiis similique nam porro. Repellendus
+            aliquid rerum quas! Iure molestiae dolor, ab recusandae quia, quas
+            fugiat fuga odit error inventore laboriosam. Doloribus ullam totam
+            veritatis alias eum voluptatibus commodi quasi dolore! Alias ducimus
+            in doloremque, quas vitae deserunt, quo cum aliquid, labore minus
+            reprehenderit laboriosam molestias. Est sed nam porro, quis ratione
+            sint ullam quasi doloribus, fuga dolorem rem harum dolorum vel a!
+          </div>
+          <div class="col center l4 s12 move-r">
+            <img
+              src="images/desc.png"
+              height="200"
+              width="auto"
+              style="object-fit: contain;"
+              alt="coffee desc"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row" style="padding-left: 50px; padding-right: 50px;">
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/card1.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Cappuccino<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Cappuccino<i class="material-icons right">close</i></span
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+                odit pariatur doloremque! Molestiae molestias eos architecto
+                itaque sit! Rem quae, similique repellendus aliquid consequuntur
+                eos!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/card2.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Traditional Coffee<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Traditional Coffee<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+                similique ut! Suscipit earum minus veniam necessitatibus, esse,
+                hic voluptas, perferendis veritatis maxime minima mollitia
+                ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/card3.jpg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Dalgona Coffee<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Dalgona Coffee<i class="material-icons right">close</i></span
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+                iste obcaecati fuga excepturi eveniet, laboriosam pariatur rem
+                voluptatum in ullam voluptatibus non nemo ipsa alias?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallex">
+      <div class="parallax-container">
+        <div class="coverlay"></div>
+        <div class="parallax">
+          <img src="images/fparallex.jpg" height="900px" width="auto" />
+        </div>
+      </div>
+    </section>
+
+    <section class="fabout">
+      <div class="section center white">
+        <div class="row container">
+          <h2 class="header">About Us</h2>
+          <p class="text-grey text-darken-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+            nihil tempora possimus excepturi, ab, reiciendis esse corrupti et
+            nisi consequatur obcaecati. Dolore quod reiciendis, ipsam dolor unde
+            doloribus saepe aut voluptatem neque rerum aliquid fugiat ullam
+            tempore expedita porro suscipit voluptatibus dolores laudantium
+            veritatis? Dolor dolore beatae dignissimos ullam eveniet corporis
+            quam enim, maiores libero facere ipsam fugit repellendus a assumenda
+            eos accusantium recusandae, mollitia eligendi? Excepturi quae
+            mollitia quam rerum, sit aperiam rem maxime commodi ut eaque quas
+            doloribus nihil unde error eos numquam cumque! Libero nulla minus
+            voluptas doloremque officiis quidem magni assumenda corrupti labore
+            nemo, vitae optio!
+          </p>
+          <a
+            href="#"
+            style="background: #6f4037 !important;"
+            class="btn waves-effect waves-light"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="fservices">
+      <div class="row" style="padding-left: 50px; padding-right: 50px;">
+        <div class="col center s12 l4 m12" style="padding: 50px;">
+          <i class="large material-icons icon-coffee">local_dining</i>
+          <h5 class="header">Varity of coffee</h5>
+        </div>
+        <div class="col center s12 l4 m12" style="padding: 50px;">
+          <i class="large material-icons icon-coffee">watch_later</i>
+          <h5 class="header">Available at your time</h5>
+        </div>
+        <div class="col center s12 l4 m12" style="padding: 50px;">
+          <i class="large material-icons icon-coffee">brightness_high</i>
+          <h5 class="header">Start your day with coffee</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="freviews">
+      <div class="section white center">
+        <h3 class="header">What our customers say</h3>
+        <div class="carousel myreviews" style="margin-bottom: 30px;">
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #6f4037 !important;"
+                >
+                  <span class="white-text">One review</span>
+                  <p class="white-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Officia ducimus cupiditate placeat aperiam totam ex!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #6f4037 !important;"
+                >
+                  <span class="white-text">One review</span>
+                  <p class="white-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Officia ducimus cupiditate placeat aperiam totam ex!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #6f4037 !important;"
+                >
+                  <span class="white-text">One review</span>
+                  <p class="white-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Officia ducimus cupiditate placeat aperiam totam ex!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #6f4037 !important;"
+                >
+                  <span class="white-text">One review</span>
+                  <p class="white-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Officia ducimus cupiditate placeat aperiam totam ex!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #6f4037 !important;"
+                >
+                  <span class="white-text">One review</span>
+                  <p class="white-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Officia ducimus cupiditate placeat aperiam totam ex!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h4 class="white-text">Contact Us</h4>
+              <p class="grey-text">
+                ABC, Mumbai, India
+              </p>
+              <p class="grey-text">
+                +919999999999
+              </p>
+            </div>
+            <div class="col s12 l6">
+              <h4 class="white-text">Social Media</h4>
+              <ul>
+                <li><a href="#" class="grey-text">Facebook</a></li>
+                <li><a href="#" class="grey-text">Instagram</a></li>
+                <li><a href="#" class="grey-text">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-two">
+          <div class="container">
+            <div class="col l6 s12">
+              <p class="white-text">&copy; CafeKing</p>
+            </div>
+            <div class="col l6 s12">
+              <p class="white-text">Design by Raj Kavankar</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link disabled</h4>
+
+          <p id="info-modal-content">Sorry! All links are disabled</p>
+
+          <div class="modal-footer">
+            <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- Jquery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Materialize JS  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- CUSTOM JS  -->
+  <script src="js/loader.js"></script>
+</html>
